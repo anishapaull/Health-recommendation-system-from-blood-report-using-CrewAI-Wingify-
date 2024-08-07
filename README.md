@@ -16,19 +16,24 @@ Expected Output: A detailed three-paragraph summary of the blood report.
 
 health_researcher:
 
-Task: Searches the internet for articles related to the blood report and provides easy-to-understand health recommendations.
+Task: 
+
+Searches the internet for articles related to the blood report and provides easy-to-understand health recommendations.
 Expected Output: A three-paragraph report with health recommendations based on the found articles with the links of the articles
 
 Tools:
-    SerperDevTool: For searching the internet for relevant health articles.
-    PDFSearchTool: For searching within PDF documents (e.g., blood test reports).
 
-Setup
+SerperDevTool: For searching the internet for relevant health articles.
+PDFSearchTool: For searching within PDF documents (e.g., blood test reports).
+
+# Setup
 
 Install Dependencies:
+
 Ensure crewai_tools and python-dotenv are installed.
 
-Configuration:
+# Configuration:
+
 Create a .env file with your API keys (e.g., SERPER_API_KEY, GOOGLE_API_KEY).
 
 # Execution
