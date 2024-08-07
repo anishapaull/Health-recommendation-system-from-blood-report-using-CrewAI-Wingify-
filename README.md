@@ -8,9 +8,13 @@ health_researcher: Searches for relevant health articles and provides recommenda
 
 Agents:
 blood_report_clerk:
+
 Task: Retrieves and interprets information from the blood report to create a comprehensive analysis.
 Expected Output: A detailed three-paragraph summary of the blood report.
+
+
 health_researcher:
+
 Task: Searches the internet for articles related to the blood report and provides easy-to-understand health recommendations.
 Expected Output: A three-paragraph report with health recommendations based on the found articles with the links of the articles
 
